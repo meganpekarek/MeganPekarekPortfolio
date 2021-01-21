@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+
+html {
+  --color-text: black;
+  --color-background: white;
+  --color-primary: #EDF8FC;
+  --color-secondary: #bedcff;
+  --color-accent: #c96f53;
+  --font-family: 'Mukta', sans-serif;
+  --gutter: 16px;
+  --side-page-padding: 5em;
+}
+
+h1 {
+  font-size: 4em;
+  letter-spacing: .1em;
+  margin: .3em 0 0 0;
+}
+
 .app__wrapper {
-  padding: 0 5em;
+  font-family: var(--font-family);
+  background: var(--color-background);
 }
 
 .nav__wrapper {
   display: flex;
   justify-content: flex-start;
-  padding: 2em 0;
+  padding: 2em var(--side-page-padding);
 }
 
 .nav__item {
   margin: 1em 4em 1em 0;
+}
+
+.home__wrapper {
+  
+}
+
+.home__headerContent {
+  background: var(--color-primary);
+  padding: 1em var(--side-page-padding);
+  display: flex;
+  justify-content: space-between;
 }

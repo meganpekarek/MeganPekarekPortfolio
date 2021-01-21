@@ -10,9 +10,22 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className="home__wrapper">
-        Hello I'm Home
-      </div>
+      <section className="home__wrapper">
+        <div className="home__headerContent">
+            <div className="home__titleSection">
+                <h1 className="home__header">Megan Pekarek</h1>
+                <h3 className="home__subheader">Front End Developer and UX/UI Designer</h3>
+            </div>
+            <div className="home__infoSection">
+                <div className="home__devInfo">
+                    dev info here
+                </div>
+                <div className="home__designInfo">
+                    design info here
+                </div>
+            </div>
+        </div>
+      </section>
     );
   }
 }
