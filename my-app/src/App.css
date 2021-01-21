@@ -1,0 +1,13 @@
+.app__wrapper {
+  padding: 0 5em;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: flex-start;
+  padding: 2em 0;
+}
+
+.nav__item {
+  margin: 1em 4em 1em 0;
+}
