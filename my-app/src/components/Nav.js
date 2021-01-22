@@ -12,12 +12,12 @@ class Nav extends React.Component {
   render() {
     return (
       <section className="nav__wrapper">
-        <div className="nav__itemsWrapper">
-          <nav className="nav__item">Home</nav>
-          <nav className="nav__item">About Me</nav>
-          <nav className="nav__item">Resume</nav>
-          <nav className="nav__item">Contact</nav>
-        </div>
+        <nav className="nav__itemsWrapper">
+          <div className="nav__item">Home</div>
+          <div className="nav__item">About Me</div>
+          <div className="nav__item">Resume</div>
+          <div className="nav__item">LinkedIn</div>
+        </nav>
         <div className="nav__logoWrapper">
           <img className="nav__mpLogo" src={MPLogo} />
         </div>

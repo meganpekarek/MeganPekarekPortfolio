@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Home from './views/Home'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 
@@ -15,6 +16,7 @@ const routing = (
         <Route exact path="/" component={App} />
         <Route path="/home" component={Home} />
       </Switch>
+      <Footer />
       {/* <Route exact path="/" component={App} />
       <Route path="/chooseteams" component={ChooseTeams} /> */}
     </div>
